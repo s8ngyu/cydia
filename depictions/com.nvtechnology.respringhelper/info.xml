@@ -1,0 +1,26 @@
+<package>
+	<id>com.nvtechnology.debackup</id>
+	<name>RespringHelper</name>
+	<version>1000</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>firmware (>= 7.0), mobilesubstrate</package>
+	</dependencies>
+	<shortDescription>Respring command in mobile terminal.</shortDescription>
+		<description>Usage: type "rs" in mobile terminal or SSH to respring, and type "safe" to enter safe mode.</description>
+	</descriptionlist>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>@hypertexterr410</name>
+			<url>https://twitter.com/hypertexterr410</url>
+			<iconclass>fa fa-twitter</iconclass>
+		</link>
+	</links>
+</package>
