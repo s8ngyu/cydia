@@ -1,0 +1,35 @@
+<package>
+	<id>com.nvtechnology.debackup</id>
+	<name>DEBackup</name>
+	<version>2310</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>firmware (>= 10.0), mobilesubstrate</package>
+	</dependencies>
+	<shortDescription>Backup your all tweaks into a single file!</shortDescription>
+	<descriptionlist>
+		<description>Backup and Restore your tweaks at once! This tool will extract all the installed tweaks to deb file and archive into a single file.
+		You can restore whenever you want! Deb extraction tool credit: redeb by T.Herak</description>
+		<description>Usage: type "deback" in mobile terminal or SSH.</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>Working screen!</description>
+			<image>screenshot.jpeg</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>Bug fix - File not found</change>
+	</changelog>
+	<links>
+		<link>
+			<name>@hypertexterr410</name>
+			<url>https://twitter.com/hypertexterr410</url>
+			<iconclass>fa fa-twitter</iconclass>
+		</link>
+	</links>
+</package>

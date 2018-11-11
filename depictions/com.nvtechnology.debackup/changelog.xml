@@ -1,0 +1,34 @@
+<changelog>
+	<changes>
+		<version>2310</version>
+		<change>Bug fixed</change>
+	</changes>
+	<changes>
+		<version>2301</version>
+		<change>Bug fixed</change>
+	</changes>
+	<changes>
+		<version>2300</version>
+		<change>Initial Release in Public</change>
+	</changes>
+	<changes>
+		<version>2259</version>
+		<change>Packaged into debian package</change>
+	</changes>
+	<changes>
+		<version>1200~2130</version>
+		<change>Bug Fixes</change>
+	</changes>
+	<changes>
+		<version>1101</version>
+		<change>Redeb included</change>
+	</changes>
+	<changes>
+		<version>910</version>
+		<change>Launch fix</change>
+	</changes>
+	<changes>
+		<version>900</version>
+		<change>Initial Release for test</change>
+	</changes>
+</changelog>
