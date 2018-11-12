@@ -1,7 +1,7 @@
 <package>
 	<id>com.nvtechnology.respringhelper</id>
 	<name>RespringHelper</name>
-	<version>1000</version>
+	<version>1001</version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.0</miniOS>
@@ -11,10 +11,10 @@
 		<package>firmware (>= 7.0), mobilesubstrate</package>
 	</dependencies>
 	<shortDescription>Respring command in mobile terminal.</shortDescription>
-		<description>Usage: type "rs" in mobile terminal or SSH to respring, and type "safe" to enter safe mode.</description>
+		<description>Usage: type "rs" in mobile terminal or SSH to respring</description>
 	</descriptionlist>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Removed safemode trigger</change>
 	</changelog>
 	<links>
 		<link>

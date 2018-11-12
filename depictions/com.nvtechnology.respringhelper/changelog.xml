@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>1001</version>
+		<change>Removed safemode trigger</change>
+		<change>Removed .DS_Store</change>
+	</changes>
+	<changes>
 		<version>1000</version>
 		<change>Initial Release</change>
 	</changes>
