@@ -1,0 +1,55 @@
+<changelog>
+	<changes>
+		<version>2430</version>
+		<change>Bug fixed: [Backup] Changing work directory error fixed</change>
+		<change>Bug fixed: [Restore] Infinite loop</change>
+		<change>Added: [Universal] Packing and unpacking are now silet.</change>
+		<change>Added: [Restore] It will automatically run uicache after restoration</change>
+		<change>Repo moved: Moved to release repository after test</change>
+	</changes>
+	<changes>
+		<version>2420</version>
+		<change>Bug fixed: [Backup] Archiving nothing</change>
+	</changes>
+	<changes>
+		<version>2410</version>
+		<change>Bug fixed: [Backup] Unable to store it in permanent storage after archiving</change>
+		<change>Bug fixed: [Restore] Stuck while trying to restore</change>
+	</changes>
+	<changes>
+		<version>2400</version>
+		<change>Moved to beta repo</change>
+	</changes>
+	<changes>
+		<version>2310</version>
+		<change>Bug fixed</change>
+	</changes>
+	<changes>
+		<version>2301</version>
+		<change>Bug fixed</change>
+	</changes>
+	<changes>
+		<version>2300</version>
+		<change>Initial Release in Public</change>
+	</changes>
+	<changes>
+		<version>2259</version>
+		<change>Packaged into debian package</change>
+	</changes>
+	<changes>
+		<version>1200~2130</version>
+		<change>Bug Fixes</change>
+	</changes>
+	<changes>
+		<version>1101</version>
+		<change>Redeb included</change>
+	</changes>
+	<changes>
+		<version>910</version>
+		<change>Launch fix</change>
+	</changes>
+	<changes>
+		<version>900</version>
+		<change>Initial Release for test</change>
+	</changes>
+</changelog>
