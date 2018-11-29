@@ -1,7 +1,7 @@
 <package>
 	<id>com.nvtechnology.debackup</id>
 	<name>DEBackup</name>
-	<version>2430</version>
+	<version>3120</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -15,7 +15,7 @@
 		<description>Backup and Restore your tweaks at once! This tool will extract all the installed tweaks to deb file and archive into a single file.
 		You can restore whenever you want! Deb extraction tool credit: redeb by T.Herak</description>
 		<description>Usage: type "deback" in mobile terminal or SSH.</description>
-		<description>WARNING 1: DO NOT SHARE THE BACKUP!!!! This backup "Clones" the installed deb files. If you share your backups, then jailbreak itself may run to significant error which may lead to a circumstance that requires re-jailbreak.</description>
+		<description>WARNING 1: DO NOT SHARE THE BACKUP!!!! This backup "Clones" the installed deb files. If you share your backups, then jailbreak itself may run to significant error which may lead to a circumstance that requires re-jailbreak using Semi-Restore or Rollectra.</description>
 		<description>WARNING 2: Anemone is not restorable. You have to reinstall Anemone in Cydia manually.</description>
 	</descriptionlist>
 	<screenshots>
@@ -25,7 +25,9 @@
 		</screenshot>		
 	</screenshots>
 	<changelog>
-		<change>Stable version.</change>
+		<change>Filters after backup.</change>
+		<change>Checks permission</change>
+		<change>Uses InProgress file to check whether it crashed or not.</change>
 	</changelog>
 	<links>
 		<link>

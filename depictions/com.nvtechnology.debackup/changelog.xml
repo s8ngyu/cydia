@@ -1,5 +1,11 @@
 <changelog>
 	<changes>
+		<version>3120</version>
+		<change>Filters after backup.</change>
+		<change>Checks permission</change>
+		<change>Uses InProgress file to check whether it crashed or not.</change>
+	</changes>
+	<changes>
 		<version>2430</version>
 		<change>Bug fixed: [Backup] Changing work directory error fixed</change>
 		<change>Bug fixed: [Restore] Infinite loop</change>
