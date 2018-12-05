@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>4000</version>
+		<change>Now able to backup preferences!</change>
+	</changes>
+	<changes>
 		<version>3120</version>
 		<change>Filters after backup.</change>
 		<change>Checks permission</change>
