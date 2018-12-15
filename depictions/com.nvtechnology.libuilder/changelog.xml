@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>1100</version>
+		<change>Changed location to: /lib410</change>
+	</changes>
+	<changes>
 		<version>1000</version>
 		<change>Initial Release</change>
 	</changes>

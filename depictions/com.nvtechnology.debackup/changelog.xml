@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>4100</version>
+		<change>Stabilization</change>
+	</changes>
+	<changes>
 		<version>4000</version>
 		<change>Now able to backup preferences!</change>
 	</changes>
