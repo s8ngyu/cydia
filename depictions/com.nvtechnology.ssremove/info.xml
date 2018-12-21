@@ -1,0 +1,24 @@
+<package>
+	<id>com.nvtechnology.ssremove</id>
+	<name>ShutterSoundRemover</name>
+	<version>1000</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>firmware (>= 11.0), mobilesubstrate, com.nvtechnology.libuilder, com.nvtechnology.ssutilfix</package>
+	</dependencies>
+	<shortDescription>Remove shutter sound.</shortDescription>
+	<descriptionlist>
+		<description>This will overwrite the shutter sound files. Use ShutterSoundRestore to restore default. You can also use ssutil in terminal to backup current shutter sound.</description>
+	</descriptionlist>
+	<links>
+		<link>
+			<name>@hypertexterr410</name>
+			<url>https://twitter.com/hypertexterr410</url>
+			<iconclass>fa fa-twitter</iconclass>
+		</link>
+	</links>
+</package>

@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>4110 </version>
+		<change>Fixed unary operator error</change>
+	</changes>
+	<changes>
 		<version>4100</version>
 		<change>Stabilization</change>
 	</changes>

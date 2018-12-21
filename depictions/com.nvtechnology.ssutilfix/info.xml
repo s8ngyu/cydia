@@ -1,0 +1,24 @@
+<package>
+	<id>com.nvtechnology.ssutilfix</id>
+	<name>SSUtil Fix</name>
+	<version>1000</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>firmware (>= 11.0), mobilesubstrate, com.nvtechnology.libuilder, com.nvtechnology.ssremove</package>
+	</dependencies>
+	<shortDescription>This will fix ssutil command.</shortDescription>
+	<descriptionlist>
+		<description>This will fix ssutil command.</description>
+	</descriptionlist>
+	<links>
+		<link>
+			<name>@hypertexterr410</name>
+			<url>https://twitter.com/hypertexterr410</url>
+			<iconclass>fa fa-twitter</iconclass>
+		</link>
+	</links>
+</package>
