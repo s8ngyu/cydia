@@ -1,14 +1,14 @@
 <package>
 	<id>com.nvtechnology.zerotone</id>
 	<name>Zerotone</name>
-	<version>1100</version>
+	<version>1110</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>firmware (>= 10.0), mobilesubstrate, com.nvtechnology.libuilder</package>
+		<package>firmware (>= 10.0), mobilesubstrate, com.nvtechnology.libuilder, com.unlimapps.toneenabler</package>
 	</dependencies>
 	<shortDescription>Silent ringtone</shortDescription>
 	<descriptionlist>

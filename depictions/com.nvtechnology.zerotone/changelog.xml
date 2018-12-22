@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>1110</version>
+		<change>Added dependency</change>
+	</changes>
+	<changes>
 		<version>1100</version>
 		<change>Converted format</change>
 	</changes>
