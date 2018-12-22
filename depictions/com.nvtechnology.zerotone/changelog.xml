@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>1100</version>
+		<change>Converted format</change>
+	</changes>
+	<changes>
 		<version>1000</version>
 		<change>Initial Release</change>
 	</changes>

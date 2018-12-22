@@ -1,7 +1,7 @@
 <package>
 	<id>com.nvtechnology.zerotone</id>
 	<name>Zerotone</name>
-	<version>1000</version>
+	<version>1100</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
