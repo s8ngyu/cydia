@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Name: ShutterSoundRestore
+Package: com.nvtechnology.ssrestore
+Version: 1000
+Author: HTTP410GONE <hysong0129@gmail.com>
+Maintainer: NVTechnology Korea <nvtechkr@gmail.com>
+Depends: firmware (>= 11.0), mobilesubstrate, com.nvtechnology.libuilder
+Description: This will overwrite the silent shutter sound files. 
+Depiction: https://nvtechkorea.github.io/cydia/depictions/?p=com.nvtechnology.ssrestore
+Section: Tools

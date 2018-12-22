@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Name: SSUtil Fix
+Package: com.nvtechnology.ssutilfix
+Version: 1000
+Author: HTTP410GONE <hysong0129@gmail.com>
+Maintainer: NVTechnology Korea <nvtechkr@gmail.com>
+Depends: firmware (>= 11.0), mobilesubstrate, com.nvtechnology.libuilder, com.nvtechnology.ssremove
+Description: This will fix ssutil command.
+Depiction: https://nvtechkorea.github.io/cydia/depictions/?p=com.nvtechnology.ssutilfix
+Section: Tools

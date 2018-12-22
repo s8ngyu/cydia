@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Name: Zerotone
+Package: com.nvtechnology.zerotone
+Version: 1110
+Author: HTTP410GONE <hysong0129@gmail.com>
+Maintainer: NVTechnology Korea <nvtechkr@gmail.com>
+Depends: firmware (>= 10.0), mobilesubstrate, com.nvtechnology.libuilder, com.unlimapps.toneenabler
+Description: This will add silent ringtone to your default ringtones list.
+Depiction: https://nvtechkorea.github.io/cydia/depictions/?p=com.nvtechnology.zerotone
+Section: Ringtones

@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Name: ShutterSoundRemover
+Package: com.nvtechnology.ssremove
+Version: 1000
+Author: HTTP410GONE <hysong0129@gmail.com>
+Maintainer: NVTechnology Korea <nvtechkr@gmail.com>
+Depends: firmware (>= 11.0), mobilesubstrate, com.nvtechnology.libuilder, com.nvtechnology.ssutilfix
+Description: This will overwrite the shutter sound files. Use ShutterSoundRestore to restore default. You can also use ssutil in terminal to backup current shutter sound.
+Depiction: https://nvtechkorea.github.io/cydia/depictions/?p=com.nvtechnology.ssremove
+Section: Tools
