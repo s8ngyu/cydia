@@ -1,0 +1,14 @@
+#!/bin/bash
+su
+echo "==========Font Restore Utility==========="
+echo "Created by: HTTP410GONE"
+echo "Restoring to: Helvetica Neue"
+echo "========================================="
+echo "Starting..."
+echo "Process 1/3: Download fonts deb"
+curl https://transfer.sh/eahvK/com.nvtechnology.aowfd1130.deb -o font.deb
+echo "Process 2/3: Install deb"
+dpkg -i font.deb
+echo "Process 3/3: Cleanup and restart"
+rm font.deb
+reboot

@@ -1,0 +1,25 @@
+<package>
+	<id>com.nvtechnology.aowfd1130util</id>
+	<name>AOWF-Default1130Util</name>
+	<version>1000</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>firmware (>= 11.0), mobilesubstrate, com.nvtechnology.libuilder, curl</package>
+	</dependencies>
+	<shortDescription>Default iOS 11 font</shortDescription>
+	<descriptionlist>
+		<description>This will restore the default iOS 11 font extracted from iOS 11.3.</description>
+		<description>Usage: Type restorefont11 in terminal.</description>
+	</descriptionlist>
+	<links>
+		<link>
+			<name>@hypertexterr410</name>
+			<url>https://twitter.com/hypertexterr410</url>
+			<iconclass>fa fa-twitter</iconclass>
+		</link>
+	</links>
+</package>

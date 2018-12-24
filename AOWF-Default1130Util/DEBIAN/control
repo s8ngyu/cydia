@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Name: AOWF-Default1130 Utility
+Package: com.nvtechnology.aowfd1130util
+Version: 1000
+Author: HTTP410GONE <hysong0129@gmail.com>
+Maintainer: NVTechnology Korea <nvtechkr@gmail.com>
+Depends: firmware (>= 11.0), mobilesubstrate, com.nvtechnology.libuilder, curl
+Description: Restore default font extracted from iOS 11.3! Type restorefont11 in terminal.
+Depiction: https://nvtechkorea.github.io/cydia/depictions/?p=com.nvtechnology.aowfd1130util
+Section: AutoOverWrite Font
