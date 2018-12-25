@@ -1,6 +1,10 @@
 <changelog>
 	<changes>
-		<version>4110 </version>
+		<version>4120</version>
+		<change>Changed progress indicator</change>
+	</changes>
+	<changes>
+		<version>4110</version>
 		<change>Fixed unary operator error</change>
 	</changes>
 	<changes>
