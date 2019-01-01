@@ -1,0 +1,21 @@
+rm Packages.bz2
+
+dpkg-scanpackages -m ./debs > Packages
+
+gsed -i 's,\(\Name: 410 Library Builder.*\),\1\nSileoDepiction: https://nvtechkorea.github.io/cydia/depictions/com.nvtechnology.libuilder/sileo-depiction/index.json,g' Packages
+
+gsed -i 's,\(\Name: AOWF-Default1130 Utility.*\),\1\nSileoDepiction: https://nvtechkorea.github.io/cydia/depictions/com.nvtechnology.aowfd1130util/sileo-depiction/index.json,g' Packages
+
+gsed -i 's,\(\Name: DEBackup.*\),\1\nSileoDepiction: https://nvtechkorea.github.io/cydia/depictions/com.nvtechnology.debackup/sileo-depiction/index.json,g' Packages
+
+gsed -i 's,\(\Name: RespringHelper.*\),\1\nSileoDepiction: https://nvtechkorea.github.io/cydia/depictions/com.nvtechnology.respringhelper/sileo-depiction/index.json,g' Packages
+
+gsed -i 's,\(\Name: SSUtil Fix.*\),\1\nSileoDepiction: https://nvtechkorea.github.io/cydia/depictions/com.nvtechnology.ssutilfix/sileo-depiction/index.json,g' Packages
+
+gsed -i 's,\(\Name: ShutterSoundRemover.*\),\1\nSileoDepiction: https://nvtechkorea.github.io/cydia/depictions/com.nvtechnology.ssremove/sileo-depiction/index.json,g' Packages
+
+gsed -i 's,\(\Name: ShutterSoundRestore.*\),\1\nSileoDepiction: https://nvtechkorea.github.io/cydia/depictions/com.nvtechnology.ssrestore/sileo-depiction/index.json,g' Packages
+
+gsed -i 's,\(\Name: Zerotone.*\),\1\nSileoDepiction: https://nvtechkorea.github.io/cydia/depictions/com.nvtechnology.zerotone/sileo-depiction/index.json,g' Packages
+
+bzip2 Packages

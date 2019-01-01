@@ -1,0 +1,319 @@
+{
+	"minVersion": "0.1",
+	"tabs": [
+	{
+	"tabname": "Details",
+	"views": [
+	{
+	"itemCornerRadius": 6,
+	"itemSize": "{172, 200}",
+	"screenshots": [
+	{
+	"accessibilityText": "Screenshot",
+	"url": "https://nvtechkorea.github.io/cydia/depictions/com.nvtechnology.debackup/screenshots/screenshot.png"
+	}
+	],
+	"class": "DepictionScreenshotsView"
+	},
+	{
+	"markdown": "Backup and Restore your tweaks at once! This tool will extract all the installed tweaks to deb file and archive into a single file. You can restore whenever you want! Deb extraction tool credit: redeb by T.Herak<br/>Usage: type [deback] in mobile terminal or SSH.",
+	"useSpacing": true,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"markdown": "WARNING 1: DO NOT SHARE THE BACKUP!!!! This backup [Clones] the installed deb files. If you share your backups, then jailbreak itself may run to significant error which may lead to a circumstance that requires re-jailbreak using Semi-Restore or Rollectra.<br/>WARNING 2: Anemone is not restorable. You have to reinstall Anemone in Cydia manually.",
+	"useSpacing": true,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Latest Version",
+	"class": "DepictionHeaderView"
+	},
+	{
+	"title": "Version",
+	"text": "4120",
+	"class": "DepictionTableTextView"
+	},
+	{
+	"title": "Price",
+	"text": "Free",
+	"class": "DepictionTableTextView"
+	},
+	{
+	"spacing": 8,
+	"class": "DepictionSpacerView"
+	},
+	{
+	"title": "Developer",
+	"text": "HTTP410GONE",
+	"class": "DepictionTableTextView"
+	},
+	{
+	"title": "Contact to Developer",
+	"action": "https://twitter.com/hypertexterr410",
+	"class": "DepictionTableButtonView"
+	},
+	{
+	"spacing": 8,
+	"class": "DepictionSpacerView"
+	},
+	{
+	"markdown": "<small style=\"color: #aaa; font-size: 8pt;\">Powered by Nexus</small><style>body { text-align: center; }</style>",
+	"useRawFormat": true,
+	"class": "DepictionMarkdownView"
+	}
+	],
+	"class": "DepictionStackView"
+	},
+	{
+	"tabname": "Changelog",
+	"views": [
+	{
+	"title": "Version 4120",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Changed progress indicator" ,
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 4110",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Fixed unary operator error",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 4100",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Stabilization",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 4000",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Now able to backup preferences!",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 3120",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Filters after backup.<br/>Checks permission<br/>Uses InProgress file to check whether it crashed or not." ,
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 2430",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Bug fixed: [Backup] Changing work directory error fixed<br/>Bug fixed: [Restore] Infinite loop<br/>Added: [Universal] Packing and unpacking are now silet.<br/>Added: [Restore] It will automatically run uicache after restoration<br/>Repo moved: Moved to release repository after test",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 2420",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Bug fixed: [Backup] Archiving nothing",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 2410",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Bug fixed: [Backup] Unable to store it in permanent storage after archiving<br/>Bug fixed: [Restore] Stuck while trying to restore",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 2400",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Moved to beta repo",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 2310",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Bug fixed",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 2301",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Bug fixed",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 2300",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Initial Release in Public",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 2259",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Packaged into debian package",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 1200~2130",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Bug Fixes",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 1101",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Redeb included",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 910",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Launch fix",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 900",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Initial Release for test",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"markdown": "<small style=\"color: #aaa; font-size: 8pt;\">Powered by Nexus</small><style>body { text-align: center; }</style>",
+	"useRawFormat": true,
+	"class": "DepictionMarkdownView"
+	}
+	],
+	"class": "DepictionStackView"
+	}
+	],
+	"class": "DepictionTabView"
+	}

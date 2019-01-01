@@ -1,0 +1,93 @@
+{
+	"minVersion": "0.1",
+	"tabs": [
+	{
+	"tabname": "Details",
+	"views": [
+	{
+	"markdown": "Respring command in mobile terminal.<br/>Usage: type [rs] in mobile terminal or SSH to respring",
+	"useSpacing": true,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Latest Version",
+	"class": "DepictionHeaderView"
+	},
+	{
+	"title": "Version",
+	"text": "1001",
+	"class": "DepictionTableTextView"
+	},
+	{
+	"title": "Price",
+	"text": "Free",
+	"class": "DepictionTableTextView"
+	},
+	{
+	"spacing": 8,
+	"class": "DepictionSpacerView"
+	},
+	{
+	"title": "Developer",
+	"text": "HTTP410GONE",
+	"class": "DepictionTableTextView"
+	},
+	{
+	"title": "Contact to Developer",
+	"action": "https://twitter.com/hypertexterr410",
+	"class": "DepictionTableButtonView"
+	},
+	{
+	"spacing": 8,
+	"class": "DepictionSpacerView"
+	},
+	{
+	"markdown": "<small style=\"color: #aaa; font-size: 8pt;\">Powered by Nexus</small><style>body { text-align: center; }</style>",
+	"useRawFormat": true,
+	"class": "DepictionMarkdownView"
+	}
+	],
+	"class": "DepictionStackView"
+	},
+	{
+	"tabname": "Changelog",
+	"views": [
+	{
+	"title": "Version 1001",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Removed safemode trigger<br/>Removed .DS_Store",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"class": "DepictionSeparatorView"
+	},
+	{
+	"title": "Version 1000",
+	"useBoldText": true,
+	"useBottomMargin": true,
+	"class": "DepictionSubheaderView"
+	},
+	{
+	"markdown": "Initial Release",
+	"useSpacing": false,
+	"class": "DepictionMarkdownView"
+	},
+	{
+	"markdown": "<small style=\"color: #aaa; font-size: 8pt;\">Powered by Nexus</small><style>body { text-align: center; }</style>",
+	"useRawFormat": true,
+	"class": "DepictionMarkdownView"
+	}
+	],
+	"class": "DepictionStackView"
+	}
+	],
+	"class": "DepictionTabView"
+	}
